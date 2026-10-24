@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f7f4eb"/><stop offset="1" stop-color="#eee7d7"/></linearGradient>
+ <linearGradient id="shell" x2="0.9" y2="1"><stop stop-color="#e5dac4"/><stop offset="1" stop-color="#bdb096"/></linearGradient>
+ <radialGradient id="screen"><stop stop-color="#1c2a22"/><stop offset="1" stop-color="#080e0b"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="17" stdDeviation="20" flood-opacity=".2"/></filter>
+ <style>.term{font: 25px 'Courier New',monospace;fill:#a2f5b2}.small{font: 20px 'Courier New',monospace;fill:#82745f}</style>
+</defs>
+<rect width="1200" height="760" rx="30" fill="url(#bg)"/>
+<ellipse cx="600" cy="658" rx="340" ry="34" fill="#83775e" opacity=".13"/>
+<g filter="url(#shadow)">
+ <path d="M314 76H886Q916 76 921 113L941 538Q943 568 915 578H286Q257 568 261 538L280 113Q284 76 314 76Z" fill="url(#shell)" stroke="#afa187" stroke-width="5"/>
+ <rect x="310" y="119" width="580" height="349" rx="24" fill="#a99c83"/>
+ <rect x="329" y="137" width="542" height="311" rx="19" fill="#303e34" stroke="#7f7e69" stroke-width="8"/>
+ <rect x="347" y="154" width="506" height="278" rx="11" fill="url(#screen)"/>
+ <rect x="727" y="497" width="125" height="11" rx="4" fill="#81745f"/>
+ <rect x="725" y="497" width="93" height="4" rx="2" fill="#514739"/>
+ <circle cx="352" cy="503" r="13" fill="#b7ab93" stroke="#928570" stroke-width="3"/>
+ <circle cx="352" cy="503" r="4" fill="#82775f"/>
+ <rect x="827" y="526" width="26" height="26" rx="6" fill="#9d9078"/>
+ <path d="M835 542h10m-5-5v10" stroke="#e5dac4" stroke-width="2"/>
+ <path d="M485 579H715L739 617H460Z" fill="#c6b89f"/>
+ <path d="M430 617H770L794 638Q797 645 785 645H415Q404 645 409 638Z" fill="#b9ab90"/>
+</g>
+<g class="term">
+ <text x="380" y="201">&gt; booting tommi.os...</text>
+ <text x="380" y="245">&gt; loading projects...</text>
+ <text x="380" y="294" font-weight="bold" font-size="30">&gt; moro, oon Tommi</text>
+ <text x="380" y="342" font-size="21">&gt; developer / entrepreneur</text>
+ <text x="380" y="387">&gt; welcome</text>
+ <rect x="560" y="366" width="13" height="23" fill="#a2f5b2"><animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
+</g>
+<text x="600" y="708" class="small" text-anchor="middle">built with coffee, curiosity &amp; questionable ideas</text>
+</svg>
