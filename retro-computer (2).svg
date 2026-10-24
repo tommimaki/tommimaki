@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Retro computer with Tommi's travel-first terminal greeting">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f2e7"/><stop offset="1" stop-color="#eae3d2"/></linearGradient>
+    <linearGradient id="case" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4d9c2"/><stop offset=".56" stop-color="#d5c7ab"/><stop offset="1" stop-color="#c4b596"/></linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#928c77"/><stop offset="1" stop-color="#b5aa91"/></linearGradient>
+    <radialGradient id="crt"><stop stop-color="#18271c"/><stop offset="1" stop-color="#09100d"/></radialGradient>
+    <filter id="drop" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="19" stdDeviation="22" flood-color="#564b35" flood-opacity=".24"/></filter>
+    <clipPath id="screen"><rect x="366" y="187" width="469" height="257" rx="14"/></clipPath>
+    <pattern id="lines" width="4" height="6" patternUnits="userSpaceOnUse"><path d="M0 5.5H4" stroke="#bafac7" stroke-opacity=".045" stroke-width="1"/></pattern>
+    <style>
+      .terminal{font-family:'Courier New',Courier,monospace;fill:#a2f2ae;letter-spacing:.15px}
+      .dim{fill:#6baf7b}
+      .cursor{animation:blink 1.1s steps(1,end) infinite}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="32" fill="url(#paper)"/>
+  <ellipse cx="600" cy="669" rx="320" ry="26" fill="#847b67" opacity=".13"/>
+  <g filter="url(#drop)">
+    <!-- Classic compact computer silhouette -->
+    <path d="M366 112H827Q865 112 870 151L886 559Q888 587 859 588H338Q309 588 313 558L327 152Q331 112 366 112Z" fill="url(#case)" stroke="#ada087" stroke-width="5"/>
+    <path d="M362 136H832Q845 136 849 153L865 479H334L346 154Q347 136 362 136Z" fill="#d8ccb4" opacity=".8"/>
+    <rect x="345" y="156" width="510" height="318" rx="31" fill="#b0a68e"/>
+    <rect x="357" y="168" width="486" height="292" rx="22" fill="url(#frame)"/>
+    <rect x="366" y="187" width="469" height="257" rx="14" fill="url(#crt)" stroke="#425547" stroke-width="8"/>
+    <g clip-path="url(#screen)">
+      <rect x="366" y="187" width="469" height="257" fill="url(#lines)"/>
+      <ellipse cx="597" cy="294" rx="220" ry="150" fill="#6fbd85" opacity=".035"/>
+      <g class="terminal">
+        <text x="393" y="235" font-size="20" class="dim">TOMMI.OS  /  STARTUP COMPLETE</text>
+        <path d="M393 250H805" stroke="#4d8a5a" stroke-opacity=".52"/>
+        <text x="393" y="290" font-size="28" font-weight="bold">&gt; hey, i'm tommi.</text>
+        <text x="393" y="334" font-size="25">&gt; i write code to travel.</text>
+        <text x="393" y="373" font-size="22">&gt; turning bugs into plane tickets</text>
+        <text x="393" y="412" font-size="22">&gt; <tspan class="dim">out of office (mentally)</tspan></text>
+        <rect class="cursor" x="751" y="394" width="12" height="21" fill="#a2f2ae"/>
+      </g>
+    </g>
+    <path d="M334 495H864" stroke="#b4a789" stroke-width="3" opacity=".85"/>
+    <circle cx="385" cy="526" r="11" fill="#b3a58a" stroke="#90836b" stroke-width="2"/>
+    <circle cx="385" cy="526" r="3" fill="#80765e"/>
+    <rect x="679" y="519" width="113" height="10" rx="4" fill="#817762"/>
+    <path d="M683 519H788" stroke="#5d5548" stroke-width="2"/>
+    <rect x="820" y="543" width="20" height="20" rx="4" fill="#b5a78b"/>
+    <path d="M825 553H835M830 548V558" stroke="#7d705b" stroke-width="2"/>
+    <!-- Base -->
+    <path d="M508 589H692L714 626H486Z" fill="#c4b699"/>
+    <path d="M468 622H733Q743 622 751 637Q756 644 743 644H458Q444 644 450 637Z" fill="#b6a689"/>
+  </g>
+  <text x="600" y="710" font-family="'Courier New',Courier,monospace" text-anchor="middle" font-size="18" letter-spacing="1.1" fill="#857a67">COMPILE. DEPLOY. DISAPPEAR.</text>
+</svg>
